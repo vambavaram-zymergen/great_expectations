@@ -77,7 +77,7 @@ pygments_style = 'sphinx'
 html_static_path = ['_static']
 
 html_css_files = [
-    'css/app.css',
+    'css/style.css',
 ]
 
 # Custom sidebar templates, must be a dictionary that maps document names
