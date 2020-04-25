@@ -1,6 +1,6 @@
-####################
-Contributing
-####################
+
+Contributing to Great Expectations
+===========================================
 
 Welcome to the Great Expectations project! We're very glad you want to help out by contributing.
 
