@@ -16,6 +16,7 @@ communication between teams. Head over to the :ref:`intro` to learn more, or jum
    :maxdepth: 2
 
    intro
+   quick_start
    tutorials
    guides
    background
