@@ -35,9 +35,6 @@ configuration information. For example, the following simple configuration suppo
   datasources:
     pipeline:
       class_name: PandasDatasource
-      generators:
-        default:
-          class_name: InMemoryGenerator
 
 The following configuration demonstrates a more complicated configuration for reading assets from S3 into pandas. It
 will access the amazon public NYC taxi data and provides access to two assets: 'taxi-green' and 'taxi-fhv' which

@@ -17,15 +17,6 @@ Generator Module
         :undoc-members:
 
 
-InMemoryGenerator
--------------------------------------------------------------------------------
-
-.. autoclass:: great_expectations.datasource.generator.in_memory_generator.InMemoryGenerator
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
 QueryBatchKwargsGenerator
 ------------------------------------------------------------------------
 
