@@ -2,3 +2,27 @@
 {% block extrahead %}
     <link href="{{ pathto("_static/style.css", True) }}" rel="stylesheet" type="text/css">
 {% endblock %}
+{% block extrabody %}
+    <style>
+.side-tag {
+    position: fixed;
+    width: 320px;
+    top: 90px;
+    right: 0px;
+    background-color: rgba(200, 200, 255, .9);
+    padding: 10px;
+    border-left: 20px solid blue;
+    z-index: 100000;
+}
+
+/* .side-tag p{
+    margin-bottom: px;
+} */
+    </style>
+
+    <div class="side-tag">
+        <p>We're working on new, improved documentation for Great Expectations. Expect it by May 25.</p>
+        
+        <p>If you'd like a preview, please join the <a href="https://greatexpectations.io/slack">public Slack channel</a> and speak up!</p>
+    </div>
+{% endblock %}
